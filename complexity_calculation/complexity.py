@@ -36,5 +36,14 @@ class complexityCalculator:
         return self.result
 
 
+class changeOverComplexity:
+    data = ""
+
+    def __init__(self):
+        dr = data_ingestion.dataReader()
+        data = dr.file
+        self.data = data
+
+
 
 
